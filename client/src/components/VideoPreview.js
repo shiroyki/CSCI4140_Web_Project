@@ -2,7 +2,7 @@ import React from "react";
 import transition from "../transition";
 import ReactPlayer from "react-player";
 import {useRef, useState, useEffect} from 'react';
-import { Container, Box, SimpleGrid } from "@chakra-ui/react";
+import {  FormLabel,RadioGroup,HStack,Radio,FormHelperText , ButtonGroup,    Button, Heading, Text,  Input,  FormControl,  FormErrorMessage,Container, Box, SimpleGrid } from "@chakra-ui/react";
 const VideoPreview = ( ) => {
     const [resume, setResume] = useState(false);
     const [videoUrl, setVideoUrl] = useState('');
@@ -47,9 +47,33 @@ const VideoPreview = ( ) => {
               >
 
             </ReactPlayer>
-            <button onClick={() => setResume(!resume)}>Play</button>
+
+            <Button onClick={() => setResume(!resume)}>Play</Button>
+
+
             <span>{subtitlePath}</span>
-          </div> </Container>
+
+          </div> 
+          <div className="form">
+          <h1>Confirm</h1>
+                <FormControl as='fieldset'>
+  <FormLabel as='legend'>Generate Subtitle</FormLabel>
+  <RadioGroup defaultValue='en'>
+    <HStack spacing='24px'>
+      <Radio value='fr'>France</Radio>
+      <Radio value='chin'>Chinese</Radio>
+      <Radio value='en'>English</Radio>
+      <Radio value='jp'>Japanese</Radio>
+    </HStack>
+  </RadioGroup>
+  <FormHelperText>Select the desired language for subtitle generation.</FormHelperText>
+</FormControl>
+<ButtonGroup variant='outline' spacing='6'>
+  <Button colorScheme='blue'>Proceed</Button>
+ <a href="/"><Button>Back to Home</Button></a>
+</ButtonGroup>
+            
+            </div></Container>
         </>
 
     );

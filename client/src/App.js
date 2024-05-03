@@ -7,6 +7,7 @@ import About from "./components/About"
 import VideoPreview from "./components/VideoPreview"
 import Upload from "./components/Upload"
 import Config from "./components/Config"
+import Confirm from "./components/Confirm"
 import { AnimatePresence } from 'framer-motion';
 import { Container} from "@chakra-ui/react";
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/upload" element={<Upload/>}/>
       <Route path="/video-preview" element={<VideoPreview/>}/>
       <Route path="/config" element={<Config/>}/>
+      <Route path="/confirm" element={<Confirm/>}/>
 
 
       </Routes>

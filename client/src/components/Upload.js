@@ -1,6 +1,6 @@
 import React from "react";
 import transition from "../transition";
-import {  Container, Box, Button, Heading, Text,  Input,  FormControl,  FormErrorMessage} from '@chakra-ui/react';
+import {  FormLabel,RadioGroup,HStack,Radio,FormHelperText , ButtonGroup,  Container, Box, Button, Heading, Text,  Input,  FormControl,  FormErrorMessage} from '@chakra-ui/react';
 import {useRef, useState, useEffect} from 'react'
 
 const Upload = ( ) => {
@@ -31,6 +31,7 @@ const Upload = ( ) => {
               onChange={(e) => setFile(e.target.value)}
             />
             <FormErrorMessage>{fileError}</FormErrorMessage>
+            
           </FormControl>
           <Button
             spacing={6}
