@@ -12,6 +12,7 @@ This Web Application is built for performing subtitle generation tasks asynchron
 1. Open your terminal and navigate to the `CSCI4140_Web_Project/server/python_script` directory. 
 2. Install the required dependencies by running the following command: ```python setup.py install --user```
 3. Install the required dependencies by running the following command: ```pip install git+https://github.com/m1guelpf/auto-subtitle.git```
+4. If you have any problem on setting up auto-subtitle, you can check [auto-subtitle](https://github.com/m1guelpf/auto-subtitle) for more information.
 
 ## Client Setup
 
