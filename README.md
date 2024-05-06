@@ -27,6 +27,9 @@ This Web Application is built for performing subtitle generation tasks asynchron
 2. Install the required dependencies by running the following command: ```npm install```
 3. Once the installation is complete, start the server by running the following command: ```node server.js```
 
+## Demo
+[<img src="https://drive.google.com/file/d/1LDkRaEqSajniPzjkJxw7TDCrcpVLdUQJ/view?usp=sharing">](https://drive.google.com/file/d/1LDkRaEqSajniPzjkJxw7TDCrcpVLdUQJ/view?usp=sharing)
+
 ## Contact
 
 If you have any problem regarding to the project set-up, please reach out to me through these emails:
