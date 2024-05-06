@@ -2,7 +2,7 @@
     {
         "id": 0,
         "directory": "",
-        "default": "../video/"
+        "default": "videos/"
         
 
     }

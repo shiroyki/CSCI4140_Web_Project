@@ -1,0 +1,6 @@
+auto_subtitle.egg-info/PKG-INFO
+auto_subtitle.egg-info/SOURCES.txt
+auto_subtitle.egg-info/dependency_links.txt
+auto_subtitle.egg-info/entry_points.txt
+auto_subtitle.egg-info/requires.txt
+auto_subtitle.egg-info/top_level.txt
