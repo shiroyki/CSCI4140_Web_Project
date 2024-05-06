@@ -28,7 +28,8 @@ This Web Application is built for performing subtitle generation tasks asynchron
 3. Once the installation is complete, start the server by running the following command: ```node server.js```
 
 ## Demo
-[video demo](https://drive.google.com/file/d/1qfwmzPhVmSsP5mrkDb3I9HxZDy9xgkgD/view?usp=sharing)
+[video demo for upload](https://drive.google.com/file/d/1qfwmzPhVmSsP5mrkDb3I9HxZDy9xgkgD/view?usp=sharing)
+[video demo for web page](https://drive.google.com/file/d/1f079NyBy0e7p-cYyE0SIfUE7zAWXEZvA/view?usp=sharing)
 [Upload Demo](https://drive.google.com/file/d/1LDkRaEqSajniPzjkJxw7TDCrcpVLdUQJ/view?usp=sharing)
 
 ## Contact
