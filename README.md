@@ -1,5 +1,5 @@
 # CSCI4140_Web_Project
-This Web Application is built for performing subtitle generation tasks asynchronously as a CSCI4140 Project. The subtitle generation is handled by utilizing the open-sourced code from [auto-subtitle](https://[github.com/your-username/your-repository](https://github.com/m1guelpf/auto-subtitle)).
+This Web Application is built for performing subtitle generation tasks asynchronously as a CSCI4140 Project. The subtitle generation is handled by utilizing the open-sourced code from [auto-subtitle](https://github.com/m1guelpf/auto-subtitle).
 # Set-Up/ Installation Guide:
 
 ##Environment Set-up:
