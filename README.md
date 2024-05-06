@@ -1,4 +1,4 @@
-# CSCI4140_Web_Project
+# CSCI4140_Web_Project by Pak Yik Ki
 This Web Application is built for performing subtitle generation tasks asynchronously as a CSCI4140 Project. The subtitle generation is handled by utilizing the open-sourced code from [auto-subtitle](https://github.com/m1guelpf/auto-subtitle).
 # Set-Up/ Installation Guide:
 
